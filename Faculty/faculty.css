@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header{
+    background: #003366;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a.active{
+    background: #00509e;
+}
+
+nav ul li a:hover{
+    background: #00509e;
+}
+
+.hero{
+    background: linear-gradient(to bottom, #e0f7fa, #80d8ff);
+    color: #003366;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.founders{
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.founders h3{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #003366;
+}
+
+.founders-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+}
+
+.founder-card{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.founder-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgb(0, 0, 0, 0.2);
+}
+
+.founder-card img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.founder-card h4{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #00509e;
+}
+
+.academic-team{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.academic-team h3{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #003366;
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+}
+
+.team-card{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgb(0, 0, 0, 0.2);
+}
+
+.team-card img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.team-card h4{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #00509e;
+}
+
+.expe-team{
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.expe-team h3{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #003366;
+}
+
+.expe-team-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+}
+
+.expe-team-card{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.expe-team-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgb(0, 0, 0, 0.2);
+}
+
+.expe-team-card img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.expe-team-card h4{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #00509e;
+}
+
+footer{
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}

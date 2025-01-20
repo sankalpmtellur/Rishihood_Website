@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fdfdfd;
+}
+
+header{
+    background: #003366;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a.active, nav ul li a:hover{
+    background: #00509e;
+}
+
+.banner{
+    background: linear-gradient(to bottom, #e0f7fa, #80d8ff);
+    text-align: center;
+    padding: 50px 20px;
+    color: #003366;
+}
+
+.banner h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner p{
+    font-size: 1.2rem;
+}
+
+.highlights{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.highlights h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h4{
+    margin-bottom: 10px;
+    color: #00509e;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgb(0, 0, 0, 0.2);
+}
+
+.gallery{
+    padding: 40px 20px;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.gallery h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.gallery .images{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery .images img{
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer{
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
